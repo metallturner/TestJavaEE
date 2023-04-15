@@ -7,10 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Hello JSP</title>
+  <% String name = request.getParameter("name"); %>
+  <%= "Hello Dear " + name + " From Hello.jsp" %>
+</head>
+<body>
+
+</body>
 </html>
